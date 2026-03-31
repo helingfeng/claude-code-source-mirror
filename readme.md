@@ -2,11 +2,13 @@
 
 <div align="center">
 
+![Claude Code 运行截图](./images/main.jpg)
+
 **🔍 深入理解 AI 编程工具的完整客户端实现**
 
 一份从公开 npm 包恢复的 Claude Code 完整源码 · 51 万行代码 · 可运行 · 适合学习
 
-> 本仓库的所有文档均由 Claude Code 生成 —— 我在分析我自己的源码 😄
+（本仓库的所有文档均由 Claude Code 生成 —— 我在分析我自己的源码 😄）
 
 </div>
 
@@ -39,14 +41,16 @@
 
 ### 目录
 
-- [项目定位](#项目定位)
-- [适合谁阅读](#适合谁阅读)
-- [文档导航](#文档导航)
-- [快速事实](#快速事实)
-- [如何运行项目](#如何运行项目)
-- [如何阅读这个仓库](#如何阅读这个仓库)
-- [相关公开资料](#相关公开资料)
-- [免责声明](#免责声明)
+- [项目定位](#-项目定位)
+- [两条路径](#-两条路径)
+- [适合谁](#-适合谁)
+- [快速事实](#-快速事实)
+- [快速开始](#-快速开始)
+- [学习建议](#-学习建议)
+- [技术栈](#-技术栈)
+- [相关资源](#-相关资源)
+- [本仓库的特色](#-本仓库的特色)
+- [免责声明](#-免责声明)
 
 ## 📦 项目定位
 
@@ -114,7 +118,8 @@
 ### 三行命令启动
 
 ```bash
-cd /Users/tools/Music/cc/claude-codes
+git https://github.com/didilili/claude-code
+cd claude-code
 bun install
 bun run start
 ```
@@ -146,6 +151,16 @@ bun run format
 
 - 运行细节 → [RUNNING_SETUP.md](./RUNNING_SETUP.md)
 - 源码结构 → [SOURCE_STUDY_GUIDE.md](./SOURCE_STUDY_GUIDE.md)
+
+## 🛠️ 技术栈
+
+本项目使用的主要技术：
+
+- **语言**：TypeScript、TSX
+- **运行时**：Bun（快速的 JavaScript 运行时）
+- **前端框架**：React（用于 UI 组件）
+- **架构模式**：Agent 系统、MCP（Model Context Protocol）、工具系统
+- **开发工具**：Prettier（代码格式化）
 
 ## 🔗 相关资源
 
